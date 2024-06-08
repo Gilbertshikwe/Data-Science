@@ -10,17 +10,38 @@ Ensure you have Pandas installed. You can install it using pip:
 pip install pandas
 ```
 
-## Data Cleaning Steps
+### Data Cleaning Steps
 
-1. **Importing Libraries**
-2. **Loading the Data**
-3. **Handling Missing Values**
-4. **Removing Duplicates**
-5. **Correcting Data Types**
-6. **Handling Outliers**
-7. **Renaming Columns**
-8. **Dropping Unnecessary Columns**
-9. **Data Standardization**
+Data cleaning is a crucial step in the data preprocessing pipeline, ensuring that the data is accurate, consistent, and ready for analysis. Here's a breakdown of the key data cleaning steps and why they are performed:
+
+1. **Importing Libraries:**
+   - Reason: Import necessary libraries such as Pandas and NumPy to facilitate data manipulation and analysis.
+
+2. **Loading the Data:**
+   - Reason: Load the raw data into a DataFrame to start the cleaning process.
+
+3. **Handling Missing Values:**
+   - Reason: Missing values can affect the accuracy of statistical analysis and machine learning models. Handling them by filling in missing values or removing rows/columns with missing data ensures the integrity of the dataset.
+
+4. **Removing Duplicates:**
+   - Reason: Duplicate records may skew analysis results and introduce bias. Removing duplicates ensures that each observation is unique, preventing overcounting or redundant information.
+
+5. **Correcting Data Types:**
+   - Reason: Ensuring that data types are correct is essential for accurate analysis. Converting data to the appropriate types (e.g., numeric, categorical) improves computational efficiency and prevents errors in calculations.
+
+6. **Handling Outliers:**
+   - Reason: Outliers can significantly impact statistical analysis and model performance. Handling outliers by capping/extending or removing them helps prevent them from disproportionately influencing results.
+
+7. **Renaming Columns:**
+   - Reason: Renaming columns to more descriptive or standardized names improves readability and clarity of the dataset, making it easier to understand and work with.
+
+8. **Dropping Unnecessary Columns:**
+   - Reason: Columns that are irrelevant or redundant for the analysis should be removed to streamline the dataset and reduce computational overhead.
+
+9. **Data Standardization:**
+   - Reason: Standardizing data ensures that different scales or units across variables do not bias analysis results. By scaling data to a common range or distribution, comparisons between variables become more meaningful and accurate.
+
+By following these data cleaning steps, we ensure that the dataset is prepared for further analysis, leading to more reliable insights and decisions.
 
 ## Example Script
 
