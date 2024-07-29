@@ -1,5 +1,3 @@
-# README
-
 ## Natural Language Processing (NLP)
 
 Natural Language Processing (NLP) is an interdisciplinary field at the intersection of computer science, artificial intelligence, and linguistics. It focuses on the interaction between computers and humans through natural language, aiming to enable computers to understand, interpret, and generate human language in a meaningful and useful way.
